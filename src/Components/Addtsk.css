@@ -1,0 +1,98 @@
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-contrl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-weight: bold;
+}
+
+.form-contrl input {
+  padding: 5px;
+  padding-left: 0.5rem;
+  outline: none;
+  border: 1px solid midnightblue;
+  border-radius: 4px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50%;
+}
+
+.button-submit {
+  padding: 5px 0;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.button-submit:hover {
+  background-color: white;
+  border: 1px solid midnightblue;
+  color: black;
+  padding: 4px 0;
+}
+
+.change input {
+  border: 1px solid red;
+  background-color: rgb(237, 178, 178);
+}
+
+.reminders {
+  background-color: green;
+  width: 4px;
+  height: 40px;
+  position: absolute;
+  box-shadow: 3px 5px 8px rgb(219, 219, 219);
+}
+
+.task-day {
+  margin-left: 0.5rem;
+}
+
+.wrap-it {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wrap-it input {
+  color: black;
+}
+
+.spread {
+  display: flex;
+  gap: 6.6rem;
+}
+
+@media (max-width: 768px) {
+  .button-submit {
+    padding: 15px 0;
+  }
+
+  .button-submit:hover {
+    padding: 14px 0;
+  }
+
+  .form-contrl input {
+    padding: 10px;
+  }
+
+  .wrap-it input {
+    width: 7rem;
+    height: 1.5rem;
+  }
+
+  .spread {
+    display: flex;
+    gap: 6rem;
+  }
+}
